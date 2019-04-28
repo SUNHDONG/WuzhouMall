@@ -1,0 +1,15 @@
+.wapper{
+
+}
+/*ÈÃ¶¨¿í¿é×´ÔªËØ×óÓÒ¾ÓÖĞ*/
+.container{
+    width: 1190px;
+    margin: auto auto;  /*×óÓÒ¾ÓÖĞ*/
+}
+.clearfloat:after{
+    content: "#";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
